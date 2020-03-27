@@ -22,8 +22,14 @@ To get started developing right away:
 │   └── index.html # DO NOT MODIFY
 └── src
     ├── App.css # Styles for your app. Feel free to customize this as you desire.
-    ├── App.js # This is the root of your app. Contains static HTML right now.
-    ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
+    ├── App.js # This is the root of your app. Contains updateBooks function to update the books that showing in the main page and search page and Browser Router 
+    ├── Components
+    │   ├── CurrentlyReading.js # CurrentlyReading Component display the books that currently reading
+    │   ├── Reed.js # Reed Component display the books that reading.
+    │   ├── Search.js # Search Component Contain the updateQuery function to take input value and display list of books that match the input value
+    │   └── WantToRead,js # Want To Read Component display the books that want to read
+    ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not 
+    required.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
     ├── icons # Helpful images for your app. Use at your discretion.
     │   ├── add.svg
@@ -32,6 +38,7 @@ To get started developing right away:
     ├── index.css # Global styles. You probably won't need to change anything here.
     └── index.js # You should not need to modify this file. It is used for DOM rendering only.
 ```
+
 
 Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
 
