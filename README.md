@@ -26,8 +26,8 @@ To get started developing right away:
     ├── Components
     │   ├── CurrentlyReading.js # CurrentlyReading Component display the books that currently reading
     │   ├── Reed.js # Reed Component display the books that reading.
-    │   ├── Search.js # Search Component Contain the updateQuery function to take input value and display list of books that match the input value
-    │   └── WantToRead,js # Want To Read Component display the books that want to read
+    │   ├── Search.js # Search Component Contain the updateQuery function to take input value and display the list of books that match the input value
+    │   └── WantToRead,js # WantToRead Component display the books that you want to read
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not 
     required.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
