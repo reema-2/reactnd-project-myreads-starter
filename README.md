@@ -1,6 +1,9 @@
 # MyReads Project
 This project is created for assessment in Udacity's React course. 
 
+## Demo
+https://myreads-re.netlify.app/
+
 To get started developing right away:
 
 * install all project dependencies with `npm install`
